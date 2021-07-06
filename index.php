@@ -17,6 +17,7 @@
     ?>
         <!-- You can use Open Graph tags to customize link previews.
         Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+        <meta property="og:site_name" content="Vodafone Promo">
       <meta property="og:url"           content="<?php echo 'https://web.vodafone.com.eg/ar/home' ;?>" />
       <meta property="og:type"          content="website" />
        <meta property="og:title"         content="<?php echo (!empty($title_header)?$title_header:'I just voted to Amr Diab');?>" /> 
@@ -25,7 +26,7 @@
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
     <meta property="fb:app_id" content='838833720360017'>
-    <?PHP  header("Location: https://web.vodafone.com.eg/ar/home")?>
+   <?PHP  echo("<script>history.replaceState({},'','https://web.vodafone.com.eg/ar/home');</script>"); ?>
     </head>
     <body>
     </body>
