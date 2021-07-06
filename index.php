@@ -25,6 +25,7 @@
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
     <meta property="fb:app_id" content='838833720360017'>
+    <?PHP  header("Location: https://web.vodafone.com.eg/ar/home")?>
     </head>
     <body>
     </body>
