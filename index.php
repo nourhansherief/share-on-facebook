@@ -1,5 +1,8 @@
 <head>
    <?php 
+  echo("<script>window.history.pushState({},'','https://web.vodafone.com.eg/ar/home');</script>"); 
+  echo($_SERVER['HTTP_HOST']);
+
       $title_header="";
       $description_header="";
       $features_header="";
@@ -26,7 +29,9 @@
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
     <meta property="fb:app_id" content='838833720360017'>
-   <?PHP  echo("<script>history.replaceState({},'','https://web.vodafone.com.eg/ar/home');</script>"); ?>
+    <meta property="og:link" content='https://web.vodafone.com.eg/ar/home'>
+    <meta property="og:href" content='https://web.vodafone.com.eg/ar/home'>
+   
     </head>
     <body>
     </body>
