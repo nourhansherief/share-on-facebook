@@ -1,7 +1,6 @@
-<head>
+<>
    <?php 
-  echo("<script>window.history.pushState({},'','https://web.vodafone.com.eg/ar/home');</script>"); 
-  echo($_SERVER['HTTP_HOST']);
+  echo($_SERVER['HTTP_HOheadST']);
 
       $title_header="";
       $description_header="";
@@ -33,5 +32,8 @@
     <meta property="og:href" content='https://web.vodafone.com.eg/ar/home'>
    
     </head>
-    <body>
+    <body
+	<script type="text/javascript">
+	window.location.href = 'https://web.vodafone.com.eg/ar/home' ;
+	</script>
     </body>
